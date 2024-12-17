@@ -19,6 +19,21 @@ body {
   }
 }
 
+#video {
+  background-color: black;
+}
+
+#button-tarif {
+  display: block;
+  border-radius: 5px;
+  border: 2px solid #f14d34;
+  padding: 10px 5px;
+  width: 220px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+}
+
 h2 {
   margin-top: 50px;
   /* text-align: center; */
@@ -397,6 +412,59 @@ h5 {
   color: #f14d34;
 }
 
+#p-head {
+  color: white; 
+  opacity: 50%; 
+  margin-bottom: 3em;
+}
+
+#n-one {
+  font-size: 40px;
+  /* float: left; */
+}
+
+.support-head-title {
+  color: white;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+#cup {
+  position: absolute;
+
+
+  
+
+}
+
+.vertical-border-head {
+  border-left: 3px solid #f14d34;
+  width: 3px;
+  /* height: 80px; */
+  height: 90%;
+  float: left;
+  /* margin-top: 5px; */
+}
+
+.support-head-p {
+  font-size: 12px;
+  line-height: 14.63px;
+  opacity: 70%;
+  font-weight: 200;
+  color: white;
+  margin-left: 15px;
+}
+
+#button-tarif-p {
+  margin-top: 1em; 
+  color: white; 
+  font-size: 12px; 
+  line-height: 12px; 
+  opacity: 90%; 
+}
+
 .card:hover .tariff-btn {
   background-color: #f14d34;
   color: white;
@@ -533,3 +601,66 @@ h5 {
 img {
   vertical-align: middle;
 } */
+
+#laptop {
+  z-index: 10;
+  width: 20%;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.case-card {
+  border-radius: 5px;
+  height: 250px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .case-card {
+    height: 475px;
+  }
+}
+
+.case-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.case-text {
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  position: absolute;
+  padding: 0 2.5em 1.5em 2.5em;
+}
+
+.case-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #050C33;
+}
+
+.case-title-white {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  
+}
+
+.case-date {
+  color: #050C33;
+  opacity: 50%;
+  font-size: 12px;
+}
+
+
+.case-date-white {
+  color: white;
+  opacity: 50%;
+  font-size: 12px;
+}
+
+.case-link {
+  text-decoration: none;
+  color: inherit;
+}
