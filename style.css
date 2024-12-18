@@ -8,6 +8,29 @@ body {
   color: white;
 }
 
+.dropdown-menu {
+  background-color: #f14d34;
+  border-radius: 0px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration-color: #f14d34;
+  text-decoration: underline;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #aa3725;
+  color: white;
+}
+
 /* #form {
     padding: 0;
     margin: 0;
