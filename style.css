@@ -46,6 +46,7 @@ body {
   background-color: black;
 }
 
+
 #button-tarif {
   display: block;
   border-radius: 5px;
@@ -55,6 +56,7 @@ body {
   height: 60px;
   align-items: center;
   text-align: center;
+  margin-bottom: 4em;
 }
 
 h2 {
@@ -443,7 +445,7 @@ h5 {
 
 #n-one {
   font-size: 40px;
-  /* float: left; */
+  float: left;
 }
 
 .support-head-title {
@@ -455,7 +457,7 @@ h5 {
 }
 
 #cup {
-  position: absolute;
+  /* position: absolute; */
 
 
   
