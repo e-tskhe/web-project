@@ -636,19 +636,19 @@ img {
 
 .case-card {
   border-radius: 5px;
-  height: 250px;
   position: relative;
 }
 
-@media (min-width: 768px) {
-  .case-card {
-    height: 475px;
-  }
+.case-l {
+  height: 350px;
 }
 
 .case-img {
   width: 100%;
   border-radius: 5px;
+  max-height: 200px;
+  /* width: auto; */
+  height: auto;
 }
 
 .case-text {
@@ -656,20 +656,49 @@ img {
   left: 0;
   box-sizing: border-box;
   position: absolute;
-  padding: 0 2.5em 1.5em 2.5em;
+  padding: 0 1em;
+}
+
+@media (min-width: 768px) {
+  .case-text {
+    height: initial;
+    padding: 0 2.5em 1.5em 2.5em;
+  }
+  .case-card {
+    height: 475px;
+  }
+  .case-title {
+    font-size: 18px;
+  }
+  .case-p {
+    font-size: 14px; 
+    line-height: 22px; 
+    margin-top: 2em
+  }
+  .case-title-white {
+    font-size: 18px;
+  }
+  .case-img {
+    width: 100%;
+    border-radius: 5px;
+    max-height: 100%;
+  }
+}
+
+.case-p {
+  font-size: 12px;
 }
 
 .case-title {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 800;
   color: #050C33;
 }
 
 .case-title-white {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   color: white;
-  
 }
 
 .case-date {
@@ -677,7 +706,6 @@ img {
   opacity: 50%;
   font-size: 12px;
 }
-
 
 .case-date-white {
   color: white;
@@ -688,4 +716,25 @@ img {
 .case-link {
   text-decoration: none;
   color: inherit;
+}
+
+.accordion-button {
+  font-size: 18px;
+  font-weight: 700;
+  box-shadow: none;
+}
+
+.accordion-number {
+  color: #050C33;
+  opacity: 50%;
+  font-size: 16px;
+}
+
+.accordion {
+  --bs-accordion-active-color: #f14d34;
+  --bs-accordion-active-bg: white;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-border-color: white;
+  --bs-accordion-btn-icon: none;
+  --bs-accordion-btn-active-icon: none;
 }

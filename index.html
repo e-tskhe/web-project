@@ -12,11 +12,14 @@
       crossorigin="anonymous"
     />
 
-    
+    <script src="form.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
 
@@ -35,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">ПОДДЕРЖКА DRUPAL</a>
+                  <a class="nav-link text-white" href="#">ПОДДЕРЖКА DRUPAL</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -476,12 +479,12 @@
         <div class="row mb-md-4">
           <div class="col-md-4 col-12 mb-3">
             <a href="" class="case-link">
-            <div class="case-card">
+            <div class="case-card case-l">
               <img class="case-img" src="img/case1.jpeg"></img>
               <div class="case-text">
                 <h5 class="case-title">Настройка кэширования данных. Апгрейд сервера. Ускорение работы сайта в 30 раз!</h5>
                 <h6 class="case-date">04.05.2020</h6>
-                <p style="font-size: 14px; line-height: 22px; margin-top: 2em">Влияние скорости загрузки страниц сайта на отказы и конверсии. Кейс ускорения...</p>
+                <p class="case-p">Влияние скорости загрузки страниц сайта на отказы и конверсии. Кейс ускорения...</p>
               </div>
             </div>
             </a>
@@ -513,7 +516,7 @@
           <a href="" class="case-link">
           <div class="case-card">
             <div class="case-text">
-              <h5 class="case-title-white">Drupal 7: ускорение <br> времени генерации <br> страниц интернет-магазина <br> на 32%</h5>
+              <h5 class="case-title-white">Drupal 7: ускорение времени генерации страниц интернет-магазина на 32%</h5>
               <h6 class="case-date-white">25.09.2019</h6>
             </div>
               <img class="case-img" src="img/case4.jpeg">
@@ -522,11 +525,11 @@
         </div>
         <div class="col-md-4 col-12 mb-3">
           <a href="" class="case-link">
-            <div class="case-card">
+            <div class="case-card case-l">
               <div class="case-text">
                 <h5 class="case-title">Обмен товарами и заказами интернет-магазинов на <br> Drupal 7 с 1С: Предприятие, МойСклад, Класс365</h5>
                 <h6 class="case-date">22.08.2019</h6>
-                <p style="font-size: 14px; line-height: 22px; margin-top: 2em">Опубликован <a href="" style="text-decoration: none;">релиз модуля...</a></p>
+                <p class="case-p">Опубликован <a href="" style="text-decoration: none;">релиз модуля...</a></p>
               </div>
               <img class="case-img" src="img/case5.png">
             </div>
@@ -554,7 +557,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            1. Кто непосредственно занимается поддержкой?
+                          <span class="accordion-number">1.&nbsp;</span> Кто непосредственно занимается поддержкой?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -567,7 +570,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            2. Как организована работа поддержки?
+                            <span class="accordion-number">2.&nbsp;</span> Как организована работа поддержки?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -578,7 +581,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            3. Что происходит, когда не отработаны все предоплаченные часы за месяц?
+                          <span class="accordion-number">3.&nbsp;</span> Что происходит, когда не отработаны все предоплаченные часы за месяц?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -589,7 +592,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            4. Что происходит, когда отработаны все предоплаченные часы за месяц?
+                          <span class="accordion-number">4.&nbsp;</span> Что происходит, когда отработаны все предоплаченные часы за месяц?
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -600,7 +603,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            5. Как происходит оценка и согласование планируемого времени на выполнение заявок?
+                          <span class="accordion-number">5.&nbsp;</span> Как происходит оценка и согласование планируемого времени на выполнение заявок?
                         </button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -611,7 +614,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            6. Сколько программистов выделяется на проект?
+                          <span class="accordion-number">6.&nbsp;</span> Сколько программистов выделяется на проект?
                         </button>
                     </h2>
                     <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -622,7 +625,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                            7. Как подать заявку на внесение изменений на сайте?
+                          <span class="accordion-number">7.&nbsp;</span> Как подать заявку на внесение изменений на сайте?
                         </button>
                     </h2>
                     <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -633,7 +636,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                            8. В течение какого времени начинается работа по заявке?
+                          <span class="accordion-number">8.&nbsp;</span> В течение какого времени начинается работа по заявке?
                         </button>
                     </h2>
                     <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -644,7 +647,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                            9. В течение какого времени начинается работа по заявке?
+                          <span class="accordion-number">9.&nbsp;</span> В течение какого времени начинается работа по заявке?
                         </button>
                     </h2>
                     <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -655,7 +658,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                            10. В какое время работает поддержка?
+                          <span class="accordion-number">10.&nbsp;</span> В какое время работает поддержка?
                         </button>
                     </h2>
                     <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -666,7 +669,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                            11. Подходят ли услуги поддержки, если необходимо произвести обновление ядра Drupal или модулей?
+                          <span class="accordion-number">11.&nbsp;</span> Подходят ли услуги поддержки, если необходимо произвести обновление ядра Drupal или модулей?
                         </button>
                     </h2>
                     <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -677,7 +680,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                            12. Можно ли пообщаться со специалистом голосом или в мессенджере?
+                          <span class="accordion-number">12.&nbsp;</span> Можно ли пообщаться со специалистом голосом или в мессенджере?
                         </button>
                     </h2>
                     <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
