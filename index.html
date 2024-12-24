@@ -23,126 +23,120 @@
   </head>
   <body>
 
-    <div id="video">
-      <div class="container">
-        <!-- <div class="navbar-header"></div>
-        <div class="navbar-collapse-wrapper"></div> -->
+    <div class="video-back">
+    <div class="video">
+      <video autoplay muted loop id="my-video">
+        <source src="/img/video.mp4" type="video/mp4">
+      </video>
+    </div>
+    </div>
 
-        <nav class="navbar navbar-expand-md"> 
-          <!-- navbar-light bg-light -->
-          <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">Drupal-coder</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon navbar-light"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">ПОДДЕРЖКА DRUPAL</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    АДМИНИСТРИРОВАНИЕ
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">МИГРАЦИЯ</a></li>
-                    <li><a class="dropdown-item" href="#">БЭКАПЫ</a></li>
-                    <li><a class="dropdown-item" href="#">АУДИТ БЕЗОПАСНОСТИ</a></li>
-                    <li><a class="dropdown-item" href="#">ОПТИМИЗАЦИЯ СКОРОСТИ</a></li>
-                    <li><a class="dropdown-item" href="#">ПЕРЕЕЗД НА HTTPS</a></li>
-                    <!-- <li><hr class="dropdown-divider"></li> -->
-                    <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">РЕКЛАМА</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    О НАС
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item text-white" href="#">КОМАНДА</a></li>
-                    <li><a class="dropdown-item text-white" href="#">DRUPALGIVE</a></li>
-                    <li><a class="dropdown-item text-white" href="#">БЛОГ</a></li>
-                    <li><a class="dropdown-item text-white" href="#">КУРСЫ DRUPAL</a></li>
-                    <li><a class="dropdown-item text-white" href="#">ПЕРЕЕЗД НА HTTPS</a></li>
-                    <!-- <li><hr class="dropdown-divider"></li> -->
-                    <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">ПРОЕКТЫ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">КОНТАКТЫ</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
-              </ul>
-              <!-- <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form> -->
+    <div class="container content-video">
+      <div class="nav-bar header"></div>
+      <nav class="navbar navbar-expand-md fixed-bottom navbar-dark bg-black"> 
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Drupal-coder</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav mb-2 mb-md-0 navbar-right">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">ПОДДЕРЖКА DRUPAL</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  АДМИНИСТРИРОВАНИЕ
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">МИГРАЦИЯ</a></li>
+                  <li><a class="dropdown-item" href="#">БЭКАПЫ</a></li>
+                  <li><a class="dropdown-item" href="#">АУДИТ БЕЗОПАСНОСТИ</a></li>
+                  <li><a class="dropdown-item" href="#">ОПТИМИЗАЦИЯ СКОРОСТИ</a></li>
+                  <li><a class="dropdown-item" href="#">ПЕРЕЕЗД НА HTTPS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">РЕКЛАМА</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  О НАС
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-white" href="#">КОМАНДА</a></li>
+                  <li><a class="dropdown-item text-white" href="#">DRUPALGIVE</a></li>
+                  <li><a class="dropdown-item text-white" href="#">БЛОГ</a></li>
+                  <li><a class="dropdown-item text-white" href="#">КУРСЫ DRUPAL</a></li>
+                  <li><a class="dropdown-item text-white" href="#">ПЕРЕЕЗД НА HTTPS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">ПРОЕКТЫ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+
+      
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="text-white mb-3">Поддержка <br> сайтов на Drupal</h2>
+          <p id="p-head">Сопровождение и поддержка сайтов <br> на CMS Drupal любых версий и запущенности</p>
+          <a href="#tarifs" style="text-decoration: none; color: inherit; ">
+            <div id="button-tarif"><p id="button-tarif-p">ТАРИФЫ</p></div>
+          </a>
+        </div>
+        <div class="col-md-6 col-12 mt-md-5">
+
+          <div class="row">
+            <div class="col-md-4 col-6 mb-5">
+              <div class="vertical-border-head"></div>
+              <h3 class="support-head-title" id="n-one">#1</h3>
+              <img id="cup" src="img/cup.png">
+              <p class="support-head-p">Drupal-разработчик <br> в России по версии Рейтинга Рунета</p>
+            </div>
+            <div class="col-md-4 col-6 mb-5">
+              <div class="vertical-border-head"></div>
+              <h3 class="support-head-title">3+</h3>
+              <p class="support-head-p">средний опыт специалистов более <br> 3 лет</p>
+            </div>
+            <div class="col-md-4 col-6 mb-5">
+              <div class="vertical-border-head"></div>
+              <h3 class="support-head-title">14</h3>
+              <p class="support-head-p">лет опыта в сфере <br> Drupal</p>
+            </div>
+          <!-- </div> -->
+
+          <!-- <div class="row"> -->
+            <div class="col-md-4 col-6 mb-5">
+              <div class="vertical-border-head"></div>
+              <h3 class="support-head-title">50+</h3>
+              <p class="support-head-p">модулей и тем <br> в формате DrupalGive</p>
+            </div>
+            <div class="col-md-4 col-6 mb-5">
+              <div class="vertical-border-head"></div>
+              <h3 class="support-head-title">90 000+</h3>
+              <p class="support-head-p">часов поддержки <br> сайтов на Drupal</p>
+            </div>
+            <div class="col-md-4 col-6 mb-5">
+              <div class="vertical-border-head"></div>
+              <h3 class="support-head-title">300+</h3>
+              <p class="support-head-p">Проектов <br> на поддержке</p>
             </div>
           </div>
-        </nav>
 
-
-        
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="text-white mb-3">Поддержка <br> сайтов на Drupal</h2>
-            <p id="p-head">Сопровождение и поддержка сайтов <br> на CMS Drupal любых версий и запущенности</p>
-            <a href="#tarifs" style="text-decoration: none; color: inherit; ">
-              <div id="button-tarif"><p id="button-tarif-p">ТАРИФЫ</p></div>
-            </a>
-          </div>
-          <div class="col-md-6 col-12 mt-md-5">
-
-            <div class="row">
-              <div class="col-md-4 col-6 mb-5">
-                <div class="vertical-border-head"></div>
-                <h3 class="support-head-title" id="n-one">#1</h3>
-                <img id="cup" src="img/cup.png">
-                <p class="support-head-p">Drupal-разработчик <br> в России по версии Рейтинга Рунета</p>
-              </div>
-              <div class="col-md-4 col-6 mb-5">
-                <div class="vertical-border-head"></div>
-                <h3 class="support-head-title">3+</h3>
-                <p class="support-head-p">средний опыт специалистов более <br> 3 лет</p>
-              </div>
-              <div class="col-md-4 col-6 mb-5">
-                <div class="vertical-border-head"></div>
-                <h3 class="support-head-title">14</h3>
-                <p class="support-head-p">лет опыта в сфере <br> Drupal</p>
-              </div>
-            <!-- </div> -->
-
-            <!-- <div class="row"> -->
-              <div class="col-md-4 col-6 mb-5">
-                <div class="vertical-border-head"></div>
-                <h3 class="support-head-title">50+</h3>
-                <p class="support-head-p">модулей и тем <br> в формате DrupalGive</p>
-              </div>
-              <div class="col-md-4 col-6 mb-5">
-                <div class="vertical-border-head"></div>
-                <h3 class="support-head-title">90 000+</h3>
-                <p class="support-head-p">часов поддержки <br> сайтов на Drupal</p>
-              </div>
-              <div class="col-md-4 col-6 mb-5">
-                <div class="vertical-border-head"></div>
-                <h3 class="support-head-title">300+</h3>
-                <p class="support-head-p">Проектов <br> на поддержке</p>
-              </div>
-            </div>
-
-            </div>
           </div>
         </div>
       </div>
     </div>
+    
 
 
 
