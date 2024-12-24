@@ -1,7 +1,6 @@
 body {
   /* color: white; */
   font-family: "Montserrat", sans-serif;
-  padding-bottom: 55px;
 }
 
 #form {
@@ -30,6 +29,11 @@ body {
 .dropdown-item:hover {
   background-color: #aa3725;
   color: white;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 150px;
 }
 
 

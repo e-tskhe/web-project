@@ -1,6 +1,6 @@
 .sliderItem {
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 180px;
     height: 100px;
