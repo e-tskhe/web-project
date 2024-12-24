@@ -12,13 +12,29 @@
       crossorigin="anonymous"
     />
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
     <script src="form.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="/js/gallery.js" defer></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleSlider.css" />
     
   </head>
   <body>
@@ -542,8 +558,73 @@
       </div>
     </div>
 
+    <!--С НАМИ РАБОТАЮТ-->  <!--ДОДЕЛАТЬ-->
+    <div class="container" id="gallery">
+      <div class="row">
+        <div class="col-12 mt-4">
+          <h2 class="text-center">С нами работают</h2>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-6 mb-4">
+              <h5 class="text-md-center m-3">
+                Десятки компаний доверяют нам самое ценное, что у них есть в
+                интернете - свои сайты. Мы делаем все, чтобы наше сотрудничество
+                было долгим.
+              </h5>
+            </div>
+          </div>
+
+          <div class="slider">
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/welimirLogo.jpg" />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/armscomLogo.webp" />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/infodayLogo.jpeg" />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" id="seedLogo" src="/img/seedsLogo.png" />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" id="kubsuLogo" src="/img/kubsuLogo.jpg" />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/rastlLogo.png" />
+            </div>
+          </div>
+
+          <div class="slider2">
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/backLogo.png" />
+            </div>
+            <div class="sliderItem">
+              <img
+                class="slider-img"
+                id="agencyLogo"
+                src="/img/agencyLogo.webp"
+              />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/stoutLogo.png" />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/welimirLogo.jpg" />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/armscomLogo.webp" />
+            </div>
+            <div class="sliderItem">
+              <img class="slider-img" src="/img/infodayLogo.jpeg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--FAQ-->  <!--ДОДЕЛАТЬ-->
-    <div class="container">
+    <div class="container mt-md-5 mt-3">
         <div class="row">
             <div class="col-12"><h2 class="text-center">FAQ</h2></div>
         <div class="row">
@@ -569,6 +650,7 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem reiciendis molestiae a tempore dicta? Facere, harum repellat. Cupiditate, sit quaerat.
                         </div>
                     </div>
                 </div>
@@ -580,6 +662,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex optio vero incidunt, nesciunt, officia dolores nostrum similique beatae officiis, autem numquam quae est reprehenderit obcaecati! Veniam doloribus dolorem repellendus?
                         </div>
                     </div>
                 </div>
@@ -591,6 +674,7 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, provident.
                         </div>
                     </div>
                 </div>
@@ -602,6 +686,7 @@
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat voluptatem perferendis vitae neque officiis quod porro, magnam molestiae. Facilis!
                         </div>
                     </div>
                 </div>
@@ -613,6 +698,7 @@
                     </h2>
                     <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eligendi dolorem est temporibus, neque sed animi ipsum atque iusto repellendus tempora quidem itaque asperiores vel!
                         </div>
                     </div>
                 </div>
@@ -624,6 +710,7 @@
                     </h2>
                     <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, voluptatem fugit mollitia ex cupiditate officiis!
                         </div>
                     </div>
                 </div>
@@ -635,6 +722,7 @@
                     </h2>
                     <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, explicabo?
                         </div>
                     </div>
                 </div>
@@ -646,6 +734,7 @@
                     </h2>
                     <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quisquam officiis totam quidem ipsam. Repellendus, impedit. Eum rem, ea quam magni reprehenderit totam, corporis vel molestias ullam eligendi, expedita voluptatibus.
                         </div>
                     </div>
                 </div>
@@ -657,6 +746,7 @@
                     </h2>
                     <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae incidunt ex aut et harum. Assumenda aliquam minima atque est perferendis, labore eius voluptates at iste vero ex animi error dolores?
                         </div>
                     </div>
                 </div>
@@ -668,6 +758,7 @@
                     </h2>
                     <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sunt deleniti dignissimos eos. Sed, unde ipsa est nihil amet officiis cupiditate tenetur facere ex voluptatibus, maiores iste porro atque suscipit quae beatae assumenda debitis totam veniam rem? Placeat, ex voluptates!
                         </div>
                     </div>
                 </div>
@@ -679,6 +770,7 @@
                     </h2>
                     <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium neque animi ex sunt, fugiat repellendus, excepturi ipsum fuga possimus error obcaecati. Maxime ut, quas id maiores possimus sed accusamus commodi, aut inventore distinctio ex animi repellendus. Suscipit nihil non dolore itaque recusandae velit, accusantium dolor.
                         </div>
                     </div>
                 </div>
@@ -687,24 +779,7 @@
     </div>
     </div>
     
-    <!--С НАМИ РАБОТАЮТ-->  <!--ДОДЕЛАТЬ-->
-    <div class="container">
-      <div class="row">
-        <div class="col-12 mt-4">
-          <h2 class="text-center">С нами работают</h2>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-12 col-md-8">
-              <h5 class="text-md-center">Десятки компаний доверяют нам самое ценное, что у них есть в интернете - свои сайты. Мы делаем все, чтобы наше сотрудничество было долгим.</h5>
-            </div>
-          </div>
-
-          <div class="row">
-
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
     <!--форма и футер-->  <!--ДОДЕЛАТЬ-->
     <div id="form">
